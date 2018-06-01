@@ -35,7 +35,7 @@ if (util.isUndefined(flags.file)) {
 
 let Canvas = new CanvasMod();
 // defaults to test mode
-//Canvas.readonly=false;
+Canvas.readonly=false;
 
 // Process entire Json string
 Canvas.updateCourseConfig(contentJSON);
