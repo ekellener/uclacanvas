@@ -29,12 +29,22 @@ Usage: node index.js [options] [command]
     -v, --version  Output the version number
 
 
-##JSON File format#
 
-
- - List item
 
 ## JSON File format
+
+definition of terms:
+  
+course - specification of encompassing LMS module
+module - specification of a unit of learning
+test - specification of test activity
+quiz - specification of quiz activity
+announce - specification of announcement broadcast
+unlock - specification in (time) format using an offset format
+(time) - object in hours & days to describe the time period.
+
+  
+
 The file is broken into 3 sections
 
  - config - Course Start date and existing Course ID
@@ -76,22 +86,7 @@ The course section is organized as:
 			 - message - the string of the announce message.
 				
 
-definition of terms:
-  
-  
 
-definition of terms:
-
-  
-course - specification of encompassing LMS module
-module - specification of a unit of learning
-test - specification of test activity
-quiz - specification of quiz activity
-announce - specification of announcement broadcast
-unlock - specification in (time) format using an offset format
-(time) - object in hours & days to describe the time period.
-
-  
 
 Refer to sample.json for an example of the file
 
