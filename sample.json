@@ -1,0 +1,121 @@
+{
+  "config": {
+    "courseStartDate": "2017-09-24T06:59:59Z",
+    "courseID": "10000"
+  },
+  "defaults": {
+    "module": {
+      "unlock": {
+        "hours": -10,
+        "days": -1
+      },
+      "duration": {
+        "hours": 10,
+        "days": 8
+      },
+       "interval": {
+        "days": 7
+        } 
+    },
+    "announce": {
+      "unlock": {
+        "hours": -10,
+        "days": -1
+      }
+    },
+    "test": {
+      "unlock": {
+        "hours": -10,
+        "days": -8
+      },
+      "duration": {
+        "hours": 10,
+        "days": 15
+      }
+    },
+    "quiz": {
+      "unlock": {
+        "hours": -10,
+        "days": -1
+      },
+      "duration": {
+        "hours": 10,
+        "days": 8
+      }
+    }
+  },
+  "course": [{
+      "module": {
+        "searchName": "Module 0",
+        "quiz": {
+          "searchName": "Tell",
+          "override": {
+           "duration": {
+              "hours": 10,
+              "days": 15
+            }
+          }
+        },
+        "announce": [
+          {
+            "title": "Checking in",
+            "message": "<p>Hi Everyone,&nbsp;</p>            <p>I wanted to confirm that everyone now has access to Apporto. If you haven't gained access, please contact UCLA lab support.</p>            <p>&nbsp;</p>            <p>Also, our first graded assignment is coming up. See the Calendar link for due dates. Again, if you have any questions, please post on the discussion forum, or message me directly via Canvas.</p>            <p>&nbsp;</p>            <p>Thanks</p>            <p>Erik</p>",
+            "override":{
+             "unlock": {
+               "days": 4
+             } 
+            }
+          },
+          {
+            "title": "Module 0 launched!",
+            "message": "Hi Everyone,   The new module period technically doesn't start until Sunday night, but I've posted it a little early.  The next two modules in the course have been made available. Make sure to look at the overview page in each of the modules to see which ones have quizzes/tests or other assignments due. Additionally, if you have any questions, please use the specific module Discussion page to post questions.   As a reminder, any assigned tests, quizzes, or projects listed in the Overview are due by the end of the module week (e.g. Sun night 11:59:59PM). If you’re unsure when a specific assignment is due, look at the calendar icon in Canvas to view all due dates.   Have a great weekend everyone. -Erik"
+           },
+          {
+            "title": "1st Assignment",
+            "message": "<p>Welcome,&nbsp;</p><p>As a way to kick-off the course, I've created an assignment for everyone. Please have a read and if you don't get to it by the start of the course, don't worry you can fill it out by the end of the first week.</p>            <p>&nbsp;</p><p>Click on the Modules link on the left side of the navigation to Module 0 and there's an assignment called -Tell me about yourself-</p><p>&nbsp;</p>"
+          },
+          {
+            "title": "Welcome",
+            "message": "<p><iframe style=\"padding: 0px; border: 1px solid #464646;\" src=\"https://uclaunex.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=9716a92f-630b-4d81-a3e8-a85e015ed54c&amp;v=1\" width=\"720\" height=\"405\" allowfullscreen=\"allowfullscreen\"></iframe></p>"
+           },
+         {
+          "title": "Welcome #2",
+          "message": "<p>Hi Everyone,&nbsp;</p>     <p>Super excited to kick off this quarter!</p>          <p>A quick note that the UCLA IT team should be sending out Apporto accounts over the next couple of days. This will be your virtualized desktop with SQL Server installed and set up for you.&nbsp;</p>          <p>&nbsp;</p>          <p>This quarter, I'm going to change the cadence of when modules are available. This is based on feedback from the previous quarter. Modules will generally be released in blocks of 2.&nbsp;</p>          <p>Starting this weekend, you'll see Module 1 <strong>and Module 2</strong> released.&nbsp;</p>          <p>This will allow you to work on both of the Module's content and accelerate your pace, if you choose to.</p>          <ul>          <li>For the test at the end of the second module (which includes content from both the first and second module), you'll have early access (a full 2 weeks to complete the Test)</li>          <li>For the quiz at the end of the first module, you'll have 1 week to complete.</li>          <li>Since you have early access to the second module, you'll actually have 2 weeks to complete the quiz in the second module).&nbsp;</li>          <li>If this is confusing, always refer to the Calendar (the icon on the left side) and it will show you the due dates for any Quiz/Assignments or Tests.</li>          </ul>        <p>My hope is this will provide more flexibility to plan around any illness, vacation, or unexpected lapse in availability.&nbsp;<em> I would highly encourage everyone NOT to wait until the due date weekend to start your work.</em> Use the Discussions boards to post questions, or DM me through canvas directly if it's a question specific to your situation.  Once the tests/quizzes close, the answers are available. As such, there is no opportunity to turn in late work.</p>          <p>Lastly, if you run into any environment issues (including SQL Server configuration or Apporto), use UCLA Ext IT support&nbsp;<a href=\"mailto:labsupport@unex.ucla.edu\">labsupport@unex.ucla.edu</a>&nbsp;to log a case. They generally take a day or so to respond.&nbsp;</p>          <p>&nbsp;</p>          <p>Erik</p>          <p>&nbsp;</p>",
+          "override":{
+          "unlock": {
+            "days": 0
+          }
+        }
+       }
+        ]
+      }
+    },
+    {
+      "module": {
+        "searchName": "Module A",
+        "announce": [{
+          "title": "Module A is launched!",
+          "message": "<p>This is a notification that Module A is live!",
+          "unlock": {
+            "hours": -10,
+            "days": -1
+          }
+        }],
+
+        "quiz": {
+          "searchName": "Module A  Quiz",
+          "override": {
+            "unlock": {
+              "hours": -10,
+              "days": -8
+            },
+            "duration": {
+              "hours": 10,
+              "days": 15
+            }
+          }
+        }
+      }
+    }
+  ]
+}
