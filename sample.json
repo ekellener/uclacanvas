@@ -9,10 +9,6 @@
         "hours": -10,
         "days": -1
       },
-      "duration": {
-        "hours": 10,
-        "days": 8
-      },
        "interval": {
         "days": 7
         } 
