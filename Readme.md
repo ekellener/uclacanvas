@@ -60,8 +60,10 @@ The config section is organized as:
 
 The defaults section is organized as:
  - Organized similar to the course section below. The default section is used to have default unlock, duration and interval specifications for Modules, Tests, Quizzes, and Announcements.
- - 
-![Image of Object scheduling](/img/Course scheduling.png)
+
+
+![Image of Object scheduling](/img/Course%20scheduling.png?raw=true)
+
 
 The course section is organized as:
  - Course
