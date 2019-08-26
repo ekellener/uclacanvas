@@ -1,0 +1,10 @@
+.env
+node_modules
+.vscode
+canvas.code-workspace
+course-adv.json
+course-beg.json
+course.json
+indexold.js
+package-lock.json
+
